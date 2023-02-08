@@ -1,0 +1,141 @@
+.gis {
+  width: 100%;
+  height: 100%;
+  z-index: 999999999999999;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+
+.opear {
+  z-index: 999999999999999;
+  position: absolute;
+  top: 55px;
+  right: 50px;
+}
+
+.slider {
+  width: 347px;
+  height: 25px;
+  padding: 0 10px;
+  border: solid 1px #00c3ff;
+  background-color: #003647;
+  opacity: 0.7;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.range {
+  flex: 1;
+}
+
+.init {
+  width: 25px;
+  height: 25px;
+  border: solid 1px #00c3ff;
+  background-color: #003647;
+  border-radius: 2px;
+  opacity: 0.7;
+  margin: 0 3px;
+  cursor: pointer;
+}
+
+.save {
+  width: 45px;
+  text-align: center;
+  line-height: 25px;
+  height: 25px;
+  font-family: 'REEJI-BigYoung-Bold';
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0px;
+  color: #c3e9f7;
+  border: solid 1px #00c3ff;
+  background-color: #003647;
+  opacity: 0.7;
+  margin-right: 3px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.close {
+  width: 25px;
+  height: 25px;
+  border: solid 1px #00c3ff;
+  background-color: #003647;
+  opacity: 0.7;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.info {
+  position: absolute;
+  z-index: 999999999999999;
+  right: 90px;
+  top: 160px;
+  //   margin-top: -425px;
+  width: 400px;
+  height: 800px;
+}
+
+.panel {
+  width: 400px;
+  height: 100%;
+  padding: 16px 35px 40px 43px;
+  background-image: url('../../assets/img/pop_label_right_bj.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  font-family: 'REEJI-BigYoung-Bold';
+  font-size: 16px;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.closePanel {
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  width: 53px;
+  height: 33px;
+  cursor: pointer;
+}
+
+.title {
+  font-size: 18px;
+  color: #ffffff;
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  border-bottom: 1px solid rgba(0, 170, 255, 0.2);
+  margin-bottom: 8px;
+}
+
+.infoDes {
+  flex: 1;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.item {
+  width: 100%;
+  font-size: 16px;
+  margin-top: 6px;
+
+  div:nth-child(1) {
+    width: 30%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    color: #92d5f0;
+  }
+
+  div:nth-child(2) {
+    width: 65%;
+    text-align: right;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    color: #ffffff;
+  }
+}
